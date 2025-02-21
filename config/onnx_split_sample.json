@@ -1,0 +1,17 @@
+[
+  {
+    "model": "bert-google",
+    "sub-graphs": [
+      {
+        "node": "Add",
+        "input": [
+          "/bert/embeddings/word_embeddings/Gather_output_0",
+          "/bert/embeddings/token_type_embeddings/Gather_output_0"
+        ],
+        "output": [
+          "/bert/embeddings/Add_output_0"
+        ]
+      }
+    ]
+  }
+]

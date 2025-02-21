@@ -1,0 +1,16 @@
+[
+  {
+    "model": "resnet_101",
+    "sub-graphs": [
+      {
+        "node": "gemm",
+        "input": [
+          "/Reshape_output_0"
+        ],
+        "output": [
+          "978"
+        ]
+      }
+    ]
+  }
+]

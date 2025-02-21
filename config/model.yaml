@@ -1,0 +1,13 @@
+model:
+    - name:  resnet_101_gemm0__oml
+      dim:
+        - "1,2048"
+   - name:  resnet_101_gemm4__oml
+      dim:
+        - "1,2048"
+    - name:  resnet_101_gemm8__oml
+      dim:
+        - "1,2048"
+   - name:  resnet_101_gemm16__oml
+      dim:
+        - "1,2048"
