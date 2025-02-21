@@ -1,5 +1,5 @@
 # vectorization-prep
-docker run -d -it -v /home/shreya/Desktop/work/vectorization-prep:/automation/vectorization-prep -v /home/shreya/Desktop/work/common/onnx-inputs:/automation/onnx-inputs onnxmlir/onnx-mlir-dev:latest
+start onnx-mlir docker: docker run -d -it -v vectorization-prep:/automation/vectorization-prep -v onnx-inputs:/automation/onnx-inputs onnxmlir/onnx-mlir-dev:latest
 
 python gen_random_data.py float32[1,8,768]
 
