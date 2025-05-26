@@ -1,3 +1,6 @@
 [submodule "oml-vect-prep"]
 	path = oml-vect-prep
 	url = git@github.com:shreya-um/oml-vect-prep.git
+[submodule "onnx-mlir-caps"]
+	path = onnx-mlir-caps
+	url = https://github.com/CAPS-UMU/onnx-mlir-caps.git
